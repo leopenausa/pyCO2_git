@@ -13,7 +13,7 @@ def random_normal(mean, stdev, error):
         return res
     
 def random_flat(mean, stdev, error):
-    """Computes random number from interval with flat distribution probability"""
+    """Computes random number from interval with flat distribution probability given mean and 2SD stdev"""
     res = 0
     np.random.seed()
 
