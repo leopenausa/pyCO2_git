@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from random_generators import random_normal, random_flat
+from random_generators import random_normal
 
 # Vectorization of of calculations with numpy provides a 10-fold improvement in speed.
 # It can probably be tunned even further by elimination pandas in this function and working
